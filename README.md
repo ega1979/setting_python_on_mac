@@ -30,14 +30,15 @@ $ echo $SHELL
 
 ### 3. Install each version of Python
 ```
-pyenv install 3.9.0  // e.g. Python 3.9
+pyenv install 3.12.10 // use Python 3.12.10
 pyenv install 2.7.18 // e.g. Python 2.7.18
 ```
 
 ### 4. Switch the version of Python
 ```
-pyenv global 3.9.0 // use Python 3.9
+pyenv global 3.12.10 // use Python 3.12.10
 pyenv global 2.7.18 // use Python 2.7.18
+pyenv global system // use default system of python because could not install 2.xx from pyenv
 ```
 
 Check the version of Python
