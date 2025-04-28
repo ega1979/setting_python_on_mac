@@ -27,11 +27,20 @@ $ echo $SHELL
 /bin/zsh  // In case of zsh
 ```
 
-
 ### 3. Install each version of Python
 ```
 pyenv install 3.12.10 // use Python 3.12.10
 pyenv install 2.7.18 // e.g. Python 2.7.18
+```
+
+cf. check versions you can install by env
+```
+pyenv install --list
+```
+
+cf. check versions you installed by env
+```
+pyenv versions
 ```
 
 ### 4. Switch the version of Python
